@@ -83,11 +83,8 @@ This first exercise does not require any programming, so no knowledge of Java is
     ```
 
 
+1. Now repeat the above steps using your chosen IDE
 
-
-## Questions and answers
-### What is a GitHub repository?
-A 'local' copy is on your own computer disk. Once you have done this you will be able to work offline, make changes and save them. This is a necessary step when building any project whether you are writing your own code or using code written by others.
-
-
+The recommended IDEs all have git support, so you could start by deleting your local copy of the repository and download again using your IDE.
+ 
 
