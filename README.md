@@ -25,7 +25,8 @@ This first exercise does not require any programming, so no knowledge of Java is
 
    You should make a local copy of this repository using the git program.
 
-   Note that git can download using either the https or ssh protocol. You should use the https protocol unless you are already familiar with ssh and have the ssh software installed on your computer. 
+   Note that git can download using either the https or ssh protocol. You should use the https protocol unless you are already familiar with ssh and have the ssh software installed on your computer. If you have enabled 2-factor authentication on your GitHub account you must create a ```personal access token```. See https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
+   
    You should enter these commands at the Windows command prompt (or in a shell terminal if you are using Mac or Linux)
 
    The ```REPOSITORY_URL``` is the text from the ```Clone or download``` button in the GitHub repository web page.  If you are viewing this document on GitHub you should see this green button near the top right.  Be sure to select the https version of the URL.
