@@ -2,7 +2,7 @@
 
 This GitHub repository contains the source code for a "Hello World" example program written in the Java programming language and project files to automate the building of the program.
 
-For this first exercise there is no need to write any Java program text, the focus is on downloading and building the provided source code.
+For this first exercise there is no need to write any Java program text, the focus is on downloading and building your first Java application using the example source code.
 
 ## Preparation
 
