@@ -60,7 +60,8 @@ This first exercise does not require any programming, so no knowledge of Java is
     ```
 
 1. Compile the hello-world application
-    Do this using the ```mvn``` command, rather than through your IDE. First you must change directory so you are in the downloaded repository. Once in the repository there are two projects to build, we will start with the ```initial``` project, so change to that directory.
+
+   Do this using the ```mvn``` command, rather than through your IDE. First you must change directory so you are in the downloaded repository. Once in the repository there are two projects to build, we will start with the ```initial``` project, so change to that directory.
     ```shell
     cd hello-world
     cd initial
