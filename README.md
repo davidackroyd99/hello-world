@@ -84,7 +84,7 @@ This first exercise does not require any programming, so no knowledge of Java is
 1. Run the compiled program
 
     ```shell
-    java -cp ./target/classes hello.HelloWorld
+    java -cp ./target/classes HelloWorld
     ```
 
 1. Create the jar package
