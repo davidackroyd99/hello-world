@@ -6,14 +6,17 @@ For this first exercise there is no need to write any Java program text, the foc
 
 ## Preparation
 
-Install the necessary software.
+Install the necessary software.  
+
+For Windows user, Visual Studio Code and AdoptOpenJDK are recommended.  See here for more information
+<https://code.visualstudio.com/docs/languages/java>  or click on this link <https://aka.ms/vscode-java-installer-win>
+
+If you are using a different operating system or wish to use a different IDE then you must install the following.
 
 1. JDK (Java Development Kit)
 1. Maven
-1. Git
 1. A programmer's editor or IDE (Integrated Development Environment)
-
-Please note that if you choose to use Visual Studio Code as your IDE then the VS Code Java extension will install the JDK for you.  See <https://devblogs.microsoft.com/visualstudio/announcing-visual-studio-code-java-installer/>
+1. Git (this is optional)
 
 See the wiki at<https://github.com/ExeterBScDTS/hello-world/wiki> for information on downloading and installing these software packages.
 
@@ -25,11 +28,11 @@ This first exercise does not require any programming, so no knowledge of Java is
 
     As you are not going to be writing a program for this exercise it will be necessary to download an existing program and compile it from source code.
 
-   You should make a local copy of this repository using the git program.
+    Either download a Zip archive of this example here <https://github.com/ExeterBScDTS/hello-world/archive/master.zip> or make a local copy of this repository using the git program.
 
-   Note that git can download using either the https or ssh protocol. You should use the https protocol unless you are already familiar with ssh and have the ssh software installed on your computer. If you have enabled 2-factor authentication on your GitHub account you must create a ```personal access token```. See <https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/>
+    Note that git can download using either the https or ssh protocol. You should use the https protocol unless you are already familiar with ssh and have the ssh software installed on your computer. If you have enabled 2-factor authentication on your GitHub account you must create a ```personal access token```. See <https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/>
 
-   You should enter these commands at the Windows command prompt (or in a shell terminal if you are using Mac or Linux)
+    You should enter these commands at the Windows command prompt (or in a shell terminal if you are using Mac or Linux)
 
    The ```REPOSITORY_URL``` is the text from the ```Clone or download``` button in the GitHub repository web page.  If you are viewing this document on GitHub you should see this green button near the top right.  Be sure to select the https version of the URL.
 
@@ -41,7 +44,7 @@ This first exercise does not require any programming, so no knowledge of Java is
 
 1. Check that the Java compiler and Maven are installed
 
-    If the commands ```javac``` and ```mvn``` are available then you have most likely got a useable build environment.
+    Open VS Code and from the ```Terminal``` menu select ```New Terminal```. You can now check if the Java compiler is correctly installed. If the commands ```javac``` and ```mvn``` are available then you have most likely got a useable build environment.
 
     ```shell
     javac -version
@@ -72,7 +75,9 @@ This first exercise does not require any programming, so no knowledge of Java is
 
 1. Compile the hello-world application
 
-   Do this using the ```mvn``` command, rather than through your IDE. First you must change directory so you are in the downloaded repository. 
+   In VS Code you can compile a project by right clicking on the Maven Project "hello-world" in the Explorer view.
+
+   Or you can use the ```mvn``` command. First you must change directory so you are in the project directory.
 
     ```shell
     cd hello-world
@@ -99,6 +104,8 @@ This first exercise does not require any programming, so no knowledge of Java is
     java -jar target/hello-world-0.1.0.jar
     ```
 
-1. Now repeat the above steps using your chosen IDE
+1. Now try modifying the program
 
-The recommended IDEs all have git support, so you could start by deleting your local copy of the repository and download again using your IDE.
+    Instructions on creating a simple program from scratch  
+
+    <https://code.visualstudio.com/docs/java/java-tutorial#_create-the-program>
